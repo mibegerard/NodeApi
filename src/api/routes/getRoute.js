@@ -1,4 +1,3 @@
-// getRoutes.js
 module.exports = (server) => {
     const getController = require("../controllers/getController");
 

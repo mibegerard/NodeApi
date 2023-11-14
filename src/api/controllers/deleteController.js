@@ -7,7 +7,7 @@ exports.deletePost = async (req, res) => {
         if (!deletedPost) {
             res.status(404).json({ message: "Post not found" });
         } else {
-            res.status(204).send(); // 204 No Content for a successful deletion
+            res.status(204).send(); 
         }
     } catch (error) {
         res.status(500).json({ message: "Internal Server Error" });
